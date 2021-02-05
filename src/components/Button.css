@@ -1,0 +1,31 @@
+/* Contains the touchpad buttons designing */
+
+.buttons-container div i{
+    color:#C0C0C0;
+    font-weight:bold;
+    font-size:20px;
+    
+}
+
+.menu-button{
+    position: relative;
+    top:20px;
+    cursor: pointer;
+}
+
+.forward{
+    position: relative;
+    top:60px;
+    left:90px;
+}
+
+.backward{
+    position: relative;
+    top:80px;
+    right:90px;
+}
+
+.play{
+    position: relative;
+    top:115px;
+}

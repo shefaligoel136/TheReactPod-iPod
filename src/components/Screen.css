@@ -1,0 +1,180 @@
+/*  css for screen items */
+
+.screen-menu{
+    height: 280px;
+    width: 150px;
+    position: absolute ;
+    background-color: white;
+    color: black;
+    transition: width ease-in-out 0.2s ;
+    box-shadow: 10px 0 5px -2px #888;
+    z-index: 10;
+}
+
+.screen-menu > div{
+    height: 3%;
+    width: 126px;
+    color: black;
+    text-align:left;
+    padding : 8%;
+    font-weight: 700;
+    text-transform: capitalize;
+    
+}
+
+.screen-menu .selected{
+    color: white;
+    background: linear-gradient(rgb(60, 184, 255) 0%, rgb(52, 122, 181) 100%);
+}
+
+.screen-menu i , .has-menu-songs i{
+    color:white;
+    font-size: 10px;
+    float:right;
+    position: relative;
+    /* top: ; */
+    top: 8px;
+}
+
+.menu-header{
+    height: 6% !important ;
+    width: 94% !important;
+    padding: 3% !important;
+    /* background-color:#E0E0E0 !important; */
+    background: linear-gradient(180deg, #feffff 0%, #b1b6b9 100%);
+    margin: 0px !important;
+    text-transform: none !important;
+    background-color:#E0E0E0 !important;
+    font-weight: 700 !important;
+    font-size: small;
+    border-bottom: 1px solid black !important;
+}
+
+.gameScreen {
+    height: 280px;
+    width: 300px;
+    /* background-color: #6699CC ; */
+    background-color: #5b6467;
+    background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+}
+
+.settingScreen {
+    height: 280px;
+    width: 300px;
+    background-color: white ;
+}
+
+.musicScreen {
+    height: 280px;
+    width: 300px;
+    background-color: gray ;
+}
+
+.allSongs {
+    height: 280px;
+    width: 300px;
+    background-color: linear-gradient(180deg, #feffff 0%, #b1b6b9 100%); ;
+}
+
+.homeScreen {
+    /* background-color: purple; */
+    width: 300px;
+    height: 280px;
+    float: right;
+}
+
+.homeScreen img{
+    height: 258px; 
+    width: 300px;
+    /* object-fit: contain; */
+}
+
+.has-menu-songs{
+    height: 280px;
+    width: 150px;
+    position: absolute ;
+    background-color: white;
+    color: black;
+    transition: width ease-in-out 0.2s ;
+    box-shadow: 10px 0 5px -2px #888;
+}
+
+.has-menu-songs > div{
+    height: 4%;
+    width: 126px;
+    color: black;
+    text-align:left;
+    padding : 8%;
+    font-weight: 700;
+    text-transform: capitalize;
+    
+}
+
+.has-menu-songs .selected{
+    color: white;
+    background: linear-gradient(rgb(60, 184, 255) 0%, rgb(52, 122, 181) 100%);
+}
+
+.header{
+    height:8%;
+    width:100%;
+    background: linear-gradient(180deg, #feffff 0%, #b1b6b9 100%);
+}
+
+.header span{
+    font-weight: 700;
+    font-size: small;
+    float: left;
+    font-size: small;
+    margin-left: 3%;
+}
+
+.header i{
+    float:right;
+    margin-right: 3%;
+    margin-top:1%;
+    
+}
+
+.setting-text{
+    text-align : center;
+    position: relative;
+    top: 10%;
+}
+
+.setting-text i{
+    font-size: xx-large;
+}
+
+.setting-text span{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.setting-text p{
+    font-size: 15px;
+}
+
+#heart{
+    color:#97233F;
+    font-size: 15px;
+}
+
+.games-icon{
+    text-align : center;
+    position: relative;
+    top: 3%;
+    font-size:80px;
+}
+
+.games-icon p{
+    font-size: 20px;
+}
+
+#reactAudio{
+    position:relative;
+    top:-10%;
+    width:99%;
+    border-radius: 0%;
+    z-index: 0;
+}
